@@ -1,0 +1,10 @@
+body{
+  background-image: url(/public/assets/images/png/page-bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ball-card:hover .white-ball {
+  display: block;
+}
