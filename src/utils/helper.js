@@ -1,10 +1,16 @@
-import { BlockChainIcon, Consultation, MarketingIcon, NftIcon, SmartContractIcon, TrustIcon, W3Icon, WebThreeIcon } from "./icons";
+import { BlockChainIcon, Consultation, FacebookIcon, InstagramIcon, MarketingIcon, NftIcon, SmartContractIcon, TrustIcon, TwitterIcon, W3Icon, WebThreeIcon, YoutubeIcon } from "./icons";
 
 export const NAVBAR_LIST = [
   { name: "Home", link: "#home" },
   { name: "Services", link: "#services" },
   { name: "Projects", link: "#projects" },
   { name: "About", link: "#about" }
+];
+export const FOOTER_LIST = [
+  { icon: <InstagramIcon />, link: "https://www.instagram.com/" },
+  { icon: <TwitterIcon />, link: "https://www.twitter.com/" },
+  { icon: <FacebookIcon />, link: "https://www.facebook.com/" },
+  { icon: <YoutubeIcon />, link: "https://www.youtube.com/" }
 ];
 
 export const PROJECT_LIST = [
@@ -75,7 +81,7 @@ export const VALUES_LIST = [
   {
     logo: <BlockChainIcon />,
     heading: 'Blockchain Agnostic ',
-    description:'Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..'
+    description: 'Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc..'
   },
 
   {

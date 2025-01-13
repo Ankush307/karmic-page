@@ -1,5 +1,5 @@
 body{
-  background-image: url(/public/assets/images/png/page-bg-img.png);
+  background-image: url('/public/assets/images/png/page-bg-img.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
