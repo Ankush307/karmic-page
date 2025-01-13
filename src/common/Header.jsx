@@ -29,7 +29,7 @@ const Header = () => {
                         </li>
                     ))}
                     <li>
-                        <CustomButton text={"Connect Wallet"} myClass={'bg-white lg:hidden'} />
+                        <CustomButton buttonClick={() => setIsOpen(false)} text={"Connect Wallet"} myClass={'bg-white lg:hidden'} />
                     </li>
                 </ul>
             </div>

@@ -122,12 +122,12 @@ export const PROJECTS_LISTS = [
 ];
 export const BUILDERS_LIST = [
   {
-    image: './assets/images/webp/builder-img1.webp'
+    image: './assets/images/png/builder-img1.png'
   },
   {
-    image: './assets/images/webp/builder-img2.webp'
+    image: './assets/images/png/builder-img2.png'
   },
   {
-    image: './assets/images/webp/builder-img4.webp'
+    image: './assets/images/png/builder-img3.png'
   }
 ]
