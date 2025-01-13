@@ -21,14 +21,14 @@ const Hero = () => {
                                     <img className='absolute pointer-events-none -bottom-[2px] left-2 max-sm:top max-w-[169px] max-sm:max-w-[90px] w-full' src='./assets/images/png/text-bottom-line.webp' alt='bottom-line' />
                                 </span>
                             </h1>
-                            <p className='lg:pt-3 pt-2 lg:pb-10 pb-6 text-white max-w-[490px]'>Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac. </p>
+                            <p className='lg:pt-3 pt-2 lg:pb-10 pb-6 text-white max-w-[550px] font-space '>Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac. </p>
                             <div className="flex gap-8">
                                 <CustomButton myClass={'py-3 px-8 bg-white flex items-center gap-2 justify-center'} text={'Get Started'} icon={<ButtonIcon />} />
-                                <CustomButton myClass={'py-3 px-8 bg-white'} text={'Read More'} />
+                                <CustomButton myClass={'py-3 px-8 border-[1px] border-white text-white '} text={'Read More'} />
                             </div>
                         </div>
                         <div className="lg:w-5/12 w-full flex items-center justify-center">
-                            <img className='max-w-[398px] w-full' src="./assets/images/webp/cards-image.webp" alt="cards img" />
+                            <img className='max-w-[398px] w-full h-[446px] object-cover ' src="./assets/images/webp/cards-image.webp" alt="cards img" />
                         </div>
                     </div>
                 </div>

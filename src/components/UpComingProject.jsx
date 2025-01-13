@@ -4,10 +4,10 @@ import CustomButton from '../common/CustomButton'
 
 const UpComingProject = () => {
     return (
-        <div id='about' className='md:pt-20 pt-10 md:pb-28 pb-16 relative'>
-            <div className="container mx-auto max-w-[1140px]">
+        <div id='about' className='md:pt-20 pt-10 md:pb-[136px] pb-16 relative'>
+            <div className="container mx-auto max-w-[1180px]">
                 <h2 className='lg:text-[56px] sm:text-[46px] text-[30px] font-light text-white md:leading-[60px] lg:pb-12 pb-6 leading-[50px] text-center uppercase relative'>UpComing Projects <span><img className='absolute top-[-20%] left-[50%] translate-x-[-50%] max-sm:max-h-[77px] pointer-events-none' src="./assets/images/png/text-line.png" alt="" /></span> </h2>
-                <div className="flex items-center justify-center flex-wrap gap-4">
+                <div className="flex items-center justify-center flex-wrap gap-8">
                     {PROJECT_LIST.map((obj, i) =>
                         <div className="text-white group p-4 bg-wood-smoke cursor-pointer rounded-[12px] border-[1px] border-white border-opacity-[10%]" key={i}>
                             <div className="overflow-hidden rounded-xl">
