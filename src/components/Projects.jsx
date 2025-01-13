@@ -7,7 +7,7 @@ const Projects = () => {
         <div id='projects' className='bg-whiteLayer max-md:bg-white bg-cover bg-center bg-no-repeat object-cover min-h-[902px] max-xl:h-[1065px] max-lg:h-[1050px] max-md:h-full'>
             <div className='max-w-[1172px] mx-auto max-lg:px-4 max-md:pb-[60px]'>
                 <div className='pt-[96px] max-md:pt-[60px]'>
-                    <h2 className='lg:text-[56px] sm:text-[46px] text-[30px] font-light md:leading-[60px] leading-[50px] text-center uppercase relative'>Projects <span><img className='absolute top-[-45%] left-[50%] translate-x-[-50%] max-sm:max-h-[77px] pointer-events-none' src="./assets/images/png/project-line.png" alt="" /></span> </h2>
+                    <h2 className='lg:text-[56px] sm:text-[46px] text-[30px] font-light md:leading-[60px] leading-[50px] text-center uppercase relative'>Projects <span><img className='absolute top-[-45%] left-[50%] translate-x-[-50%] max-sm:max-h-[77px] pointer-events-none' src="./assets/images/png/project-line.png" alt="project-line" /></span> </h2>
                     <p className='max-w-[532px] mx-auto text-center pt-6 max-sm:text-sm font-space'> Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
                 </div>
                 <div className='flex flex-wrap pt-[29px] max-md:pt-4 justify-center'>

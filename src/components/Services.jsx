@@ -6,7 +6,7 @@ const Services = () => {
         <div id="services" className="relative">
             <img className="bottom-[-40%] absolute pointer-events-none" src="./assets/images/png/services-ellips.png" alt="ellips" />
             <div className="max-w-[1145px] w-full mx-auto flex flex-col">
-                <h2 className='lg:text-[56px] sm:text-[46px] text-[30px] font-light text-white md:leading-[60px] lg:pb-12 pb-6 leading-[50px] text-center uppercase relative'>Services <span><img className='absolute top-[-20%] left-[50%] translate-x-[-50%] max-sm:max-h-[77px] pointer-events-none' src="./assets/images/png/text-line.png" alt="" /></span> </h2>
+                <h2 className='lg:text-[56px] sm:text-[46px] text-[30px] font-light text-white md:leading-[60px] lg:pb-12 pb-6 leading-[50px] text-center uppercase relative'>Services <span><img className='absolute top-[-20%] left-[50%] translate-x-[-50%] max-sm:max-h-[77px] pointer-events-none' src="./assets/images/png/text-line.png" alt="text-line" /></span> </h2>
                 <div className="flex pt-[77px] max-lg:pt-16 max-md:pt-12 max-sm:pt-8 gap-y-10 flex-wrap">
                     {SERVICES_LIST.map((item, index) => (
                         <div className="w-4/12 px-[10.5px] max-lg:w-1/2 max-md:w-full justify-center" key={index}>
