@@ -5,14 +5,14 @@ import { ButtonIcon, Icon } from '../utils/icons'
 
 const Hero = () => {
     return (
-        <div id='home' className='relative md:pb-[80px] pb-24'>
+        <div id='home' className='relative'>
             <img className='absolute top-0 left-0 pointer-events-none' src="./assets/images/png/top-ellips.png" alt="ellips" />
             <div className="container mx-auto max-w-[1140px] px-5">
                 <Header />
             </div>
             <div className="bg-heroBgImg bg-no-repeat bg-cover bg-center">
-                <div className="container mx-auto max-w-[1140px] md:pt-[140px] md:pb-16 px-5 pt-24">
-                    <div className="flex flex-wrap  max-lg:gap-10">
+                <div className="container mx-auto max-w-[1140px] md:pt-[140px] md:pb-30 px-5 pt-24 max-sm:pb-24 md:pb-[80px] sm:pb-24">
+                    <div className="flex flex-wrap max-lg:gap-10 ">
                         <div className="lg:w-7/12 w-full flex flex-col justify-center">
                             <h1 className='font-sunflower font-light text-[64px] leading-[69.53px] text-white lg:max-w-[570px] max-lg:text-center uppercase max-lg:text-6xl max-md:text-5xl max-sm:text-4xl max-sm:pt-10'> We are believers decentralization and {''}
                                 <span className='relative'>

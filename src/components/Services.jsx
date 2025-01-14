@@ -17,13 +17,11 @@ const Services = () => {
                                     {item.description && (
                                         <p className="max-md:text-sm text-white leading-[150%] pt-1.5">{item.description}</p>
                                     )}
-                                    {item.list && Array.isArray(item.list) && (
-                                        <ul className="list-inside max-md:text-sm text-white pt-1.5 pl-4">
-                                            {item.list.map((listItem, subIndex) => (
-                                                <li className="list-disc " key={subIndex}>{listItem}</li>
-                                            ))}
-                                        </ul>
-                                    )}
+                                    <ul className="list-inside max-md:text-sm text-white pt-1.5 pl-4">
+                                        {item.list.map((listItem, subIndex) => (
+                                            <li className="list-disc " key={subIndex}>{listItem}</li>
+                                        ))}
+                                    </ul>
                                 </div>
                                 <img className="lg:top-[-12%] top-[-15%] sm:top-[-10%] sm:right-[-10%] absolute right-[-12%] lg:right-[-12%] white-ball hidden" src="./assets/images/png/white-ball.png" alt="white ball" />
                             </div>
